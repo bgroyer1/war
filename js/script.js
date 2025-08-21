@@ -16,4 +16,5 @@ async function apiCall() {
 
 cardApiBtn.addEventListener('click', async() => {
   apiCall();
+  console.log(cardApiBtn)
 })
